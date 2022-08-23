@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-block">
+            <div class="underlay">
+                <img src="assets/images/odin-lined.png" alt="">
+                <p>ODIN</p>
+            </div>
+        </div>
+        <div class="form-block">
+            <div class="description"></div>
+            <form action="#">
+                <h2>Let's do this!</h2>
+
+                <div class="blocks">
+                    <div class="left-block block">
+                        <label for="firstName">First name</label>
+                        <input type="text" name="firstName" id="firstName">
+                        <label for="lastName">Last name</label>
+                        <input type="text" name="lastName" id="lastName">
+                        <label for="phoneNumber">Phone number</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber">
+                    </div>
+
+                    <div class="right-block block">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="email">Password</label>
+                        <input type="password" autocomplete="new-password" name="password" id="password">
+                        <label for="email">Confirm password</label>
+                        <input type="password" id="password2">
+                    </div>
+                </div>
+
+                <button type="submit">Create account</button>
+                <div class="log-in">
+                    <p>Already have an account?</p>
+                    <a href="">Log in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
